@@ -72,49 +72,36 @@ const Hero = () => {
       <div className="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between relative z-10">
 
         {/* LEFT CONTENT */}
-        <div className="md:w-1/2 mb-10 md:mb-0 order-2 md:order-1 text-center md:text-left">
-        <h1 className="text-4xl md:text-6xl font-bold mb-4 text-white">
+        <div className="md:w-1/2 mb-10 md:mb-0 order-2 md:order-1 flex flex-col items-center md:items-start text-center md:text-left">
+          
+          <h1 className="text-4xl md:text-6xl font-bold mb-4 text-white">
             <motion.span
-            className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 via-pink-400 to-cyan-500"
-            style={{
-                backgroundSize: "200% auto",
-            }}
-            animate={{
-                backgroundPosition: ["0% center", "100% center", "0% center"],
-            }}
-            transition={{
-                duration: 4, 
-                repeat: Infinity,
-                ease: "linear",
-            }}
+              className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 via-pink-400 to-cyan-500"
+              style={{ backgroundSize: "200% auto" }}
+              animate={{ backgroundPosition: ["0% center", "100% center", "0% center"] }}
+              transition={{ duration: 4, repeat: Infinity, ease: "linear" }}
             >
-            Robiul Hasan
+              Robiul Hasan
             </motion.span>
-        </h1>
-        <h2 className='text-2xl md:text-3xl font-semibold mb-6 
-        typewriter'>Full
-         Stack Developer</h2>
+          </h1>
 
-          <p className="text-lg text-gray-300 mb-8">
+          <div className="w-full flex justify-center md:justify-start">
+            <h2 className="text-2xl md:text-3xl font-semibold mb-6 typewriter text-white">
+              Full Stack Developer
+            </h2>
+          </div>
+
+          <p className="text-lg text-gray-300 mb-8 max-w-lg">
             Full Stack Developer focused on building scalable web applications with clean architecture, 
-            modern technologies, and user-centric design. Passionate about<br/> solving real-world problems 
-            through code and innovation.
+            modern technologies, and user-centric design.
           </p>
 
-          <div className="flex flex-col sm:flex-row sm:space-x-4 space-y-3 sm:space-y-0">
-            <a
-              href="#projects"
-              className="px-6 py-3 border border-white bg-purple-600 text-white rounded-lg font-medium
-              hover:bg-purple-700 transition duration-300 shadow-[0_0_15px_rgba(124,58,237,0.5)]"
-            >
+          {/* Buttons Container - Center for mobile */}
+          <div className="flex flex-col sm:flex-row items-center sm:space-x-4 space-y-3 sm:space-y-0">
+            <a href="#projects" className="px-6 py-3 border border-white bg-purple-600 text-white rounded-lg font-medium hover:bg-purple-700 transition duration-300 shadow-[0_0_15px_rgba(124,58,237,0.5)]">
               View Work
             </a>
-
-            <a
-              href="#contact"
-              className="px-6 py-3 border border-purple-600 text-white rounded-lg font-medium
-              hover:bg-purple-600/20 transition duration-300"
-            >
+            <a href="#contact" className="px-6 py-3 border border-purple-600 text-white rounded-lg font-medium hover:bg-purple-600/20 transition duration-300">
               Contact Me
             </a>
           </div>
