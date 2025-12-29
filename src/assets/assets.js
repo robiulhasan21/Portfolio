@@ -166,7 +166,7 @@ export const projects = [
     image: projectImg1,
     tech: ["React", "Node.js", "MongoDB","Tailwind CSS", "Stripe"],
     icons: [FaReact, FaNodeJs, FaDatabase , FaStripe],
-    demo: "https://styelwearbd.vercel.app/",
+    demo: "https://stylewearbd.vercel.app",
     code: "https://github.com/robiulhasan21/E-Commerce",
   },
   {
@@ -175,7 +175,7 @@ export const projects = [
     image: projectImg2,
     tech: ["React.js", "Node.js", "MongoDB", "Tailwind CSS", "WebSockets"],
     icons: [FaReact, FaNodeJs, FaDatabase, FaDatabase],
-    demo: "https://movienestbd.netlify.app/",
+    demo: "https://movienestbd.netlify.app",
     code: "https://github.com/robiulhasan21/MovieTicket",
   },
   {
