@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import { FaBars, FaXmark } from 'react-icons/fa6'
 import { motion } from 'framer-motion'
-import icon from '../assets/icon.png' 
+import icon from '../assets/icon.png'
+
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
