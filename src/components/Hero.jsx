@@ -101,8 +101,8 @@ const Hero = () => {
             <a href="#projects" className="px-6 py-3 border border-white bg-purple-600 text-white rounded-lg font-medium hover:bg-purple-700 transition duration-300 shadow-[0_0_15px_rgba(124,58,237,0.5)]">
               View Work
             </a>
-            <a href="#contact" className="px-6 py-3 border border-purple-600 text-white rounded-lg font-medium hover:bg-purple-600/20 transition duration-300">
-              Contact Me
+            <a href="https://drive.google.com/file/d/1k0_u-swNvoDMtXpX08kg6T1_bGRS-c08/view?usp=sharing" className="px-6 py-3 border border-purple-600 text-white rounded-lg font-medium hover:bg-purple-600/20 transition duration-300">
+              DOWNLOAD CV
             </a>
           </div>
 
