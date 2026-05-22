@@ -12,8 +12,9 @@ const Footer = () => {
             <div>
               <h2 className="text-white text-2xl font-bold mb-4">Robiul Hasan</h2>
               <p className="max-w-xs leading-relaxed">
-              Full Stack Developer focused on building scalable web applications 
-              with clean architecture, modern technologies, and user-centric design. 
+              Network Engineer with expertise in designing, implementing, and maintaining 
+              robust network infrastructures. Passionate about solving complex networking 
+              challenges and ensuring seamless connectivity.
               </p>
             </div>
             

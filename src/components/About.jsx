@@ -62,16 +62,14 @@ const About = () => {
                 >
                     <div className='rounded-2xl p-8'>
                         <h3 className='text-2xl font-semibold mb-6'>My Journey</h3>
-                        <p className='text-gray-300 mb-6'>I'm a passionate full-stack developer with over 5 
-                            years of experience creating digital solutions for 
-                            businesses around the world. My journey started with 
-                            basic HTML/CSS websites and has evolved into building 
-                            complex web applications with modern frameworks.</p>
-                        <p className='text-gray-300 mb-12'>When I'm not coding, you can find me exploring new 
-                            technologies, contributing to open-source projects, or 
-                            sharing my knowledge through tech blogs and tutorials. I 
-                            believe in continuous learning and pushing the 
-                            boundaries of what's possible on the web.</p>
+                        <p className='text-gray-300 mb-6'>I'm a passionate Network Engineer with experience 
+                            in designing, managing, and securing network infrastructures. My journey started 
+                            with learning basic networking concepts and has evolved into handling complex network 
+                            systems, troubleshooting issues, and ensuring reliable connectivity.</p>
+                        <p className='text-gray-300 mb-12'>When I'm not working on networks, I enjoy exploring 
+                            new technologies, learning about cybersecurity, and improving my skills to build 
+                            secure and efficient communication systems. I believe in continuous learning and 
+                            adapting to the ever-changing world of technology.</p>
 
                             {/* Cards */}
                             <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>

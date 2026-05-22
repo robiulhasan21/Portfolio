@@ -87,13 +87,12 @@ const Hero = () => {
 
           <div className="w-full flex justify-center md:justify-start">
             <h2 className="text-2xl md:text-3xl font-semibold mb-6 typewriter text-white">
-              Full Stack Developer
+              Network Engineer
             </h2>
           </div>
 
           <p className="text-lg text-gray-300 mb-8 max-w-lg">
-            Full Stack Developer focused on building scalable web applications with clean architecture, 
-            modern technologies, and user-centric design.
+            Network Engineer with expertise in designing, implementing, and maintaining robust network infrastructures. Passionate about solving complex networking challenges and ensuring seamless connectivity.
           </p>
 
           {/* Buttons Container - Center for mobile */}
